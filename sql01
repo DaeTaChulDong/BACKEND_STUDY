@@ -1,0 +1,2 @@
+SELECT name, COUNT(name), SUM(quantity) FROM sample GROUP BY name ORDER BY SUM(quantity) DESC;
+# name 열로 그룹화해 합계를 구하고 내림차순으로 정렬
