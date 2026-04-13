@@ -1,0 +1,4 @@
+# 올해 가입자와 작년 가입자 리스트를 합칠 때
+SELECT name FROM Users_2025
+UNION ALL
+SELECT name FROM Users_2026;
