@@ -1,0 +1,3 @@
+# 전체 유저 목록을 출력하되, 주문을 안 한 유저는 상품명에 NULL이 나오도록 조회
+SELECT U.name, O.product
+FROM Users U LEFT OUTER JOIN Orders O ON U.id = O.user_id;
