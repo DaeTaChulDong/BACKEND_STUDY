@@ -1,0 +1,3 @@
+# CROSS JOIN 
+SELECT U.name, O.product
+FROM Users U CROSS JOIN Orders O;
